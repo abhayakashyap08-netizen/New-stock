@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stock basics | Stock Starter</title>
+  <style>
+    :root{--ink:#17221d;--muted:#66736c;--paper:#f5f7f2;--green:#176b4b;--mint:#dff3e8;--line:#e2e9e3}
+    *{box-sizing:border-box}
+    body{margin:0;color:var(--ink);background:var(--paper);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+    a{color:inherit}
+    .topbar{display:flex;justify-content:space-between;align-items:center;padding:14px max(5vw,20px);background:white;border-bottom:1px solid var(--line)}
+    .brand{font-weight:800;text-decoration:none}
+    .wrap{width:min(800px,90%);margin:auto}
+    .back{display:inline-block;margin:30px 0 14px;color:var(--green);font-weight:700;text-decoration:none}
+    .eyebrow{color:var(--green);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    h1{margin:8px 0 12px;font-size:clamp(36px,6vw,54px);line-height:1.08;letter-spacing:-.04em}
+    .intro{color:var(--muted);font-size:19px}
+    article{padding:24px 0;border-bottom:1px solid var(--line)}
+    article h2{margin:0 0 8px;font-size:23px}
+    article p{margin:0;color:#435149}
+    .takeaway{margin:28px 0;padding:20px;border-radius:14px;background:var(--mint)}
+    .takeaway strong{display:block;margin-bottom:4px}
+    .pager{display:flex;justify-content:space-between;gap:12px;margin:24px 0 50px}
+    .pager a{padding:12px 16px;border:1px solid var(--line);border-radius:10px;background:white;text-decoration:none;font-weight:700}
+    .pager a:last-child{color:white;background:var(--green);border-color:var(--green)}
+    footer{padding:22px 5%;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+    @media(max-width:500px){.pager{flex-direction:column}.pager a{text-align:center}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../stock-starter.html">↗ Stock Starter</a>
+    <span>Lesson 1 of 4</span>
+  </header>
+  <main class="wrap">
+    <a class="back" href="../stock-starter.html#lessons">← All lessons</a>
+    <div class="eyebrow">🏢 Beginner lesson</div>
+    <h1>Stock basics</h1>
+    <p class="intro">A stock share represents a small piece of ownership in a company.</p>
+
+    <article>
+      <h2>What does ownership mean?</h2>
+      <p>Companies can divide ownership into shares. When someone owns a share, they own a small portion of the company. The share does not mean they can use the company’s products or make every business decision.</p>
+    </article>
+    <article>
+      <h2>Why do companies sell shares?</h2>
+      <p>A company may sell shares to raise money for things like building products, opening locations, or developing services. Public companies have shares that can be bought and sold by investors.</p>
+    </article>
+    <article>
+      <h2>How might a shareholder benefit?</h2>
+      <p>If a company does well, its share price may rise, and some companies pay dividends. Neither outcome is guaranteed: a share price can also fall, and a company may not pay dividends.</p>
+    </article>
+
+    <aside class="takeaway">
+      <strong>Remember</strong>
+      A stock is an ownership share. Its value can rise or fall, so a profit is never guaranteed.
+    </aside>
+    <nav class="pager" aria-label="Lesson navigation">
+      <a href="../stock-starter.html#lessons">← Course home</a>
+      <a href="how-trading-works.html">How trading works →</a>
+    </nav>
+  </main>
+  <footer>Stock Starter · Educational information only. Not financial advice.</footer>
+</body>
+</html>

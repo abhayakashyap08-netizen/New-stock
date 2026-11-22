@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to read a stock quote | Stock Starter</title>
+  <style>
+    :root{--ink:#17221d;--muted:#66736c;--paper:#f5f7f2;--green:#176b4b;--mint:#dff3e8;--line:#e2e9e3}
+    *{box-sizing:border-box}
+    body{margin:0;color:var(--ink);background:var(--paper);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+    a{color:inherit}
+    .topbar{display:flex;justify-content:space-between;align-items:center;padding:14px max(5vw,20px);background:white;border-bottom:1px solid var(--line)}
+    .brand{font-weight:800;text-decoration:none}
+    .wrap{width:min(800px,90%);margin:auto}
+    .back{display:inline-block;margin:30px 0 14px;color:var(--green);font-weight:700;text-decoration:none}
+    .eyebrow{color:var(--green);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    h1{margin:8px 0 12px;font-size:clamp(36px,6vw,54px);line-height:1.08;letter-spacing:-.04em}
+    .intro{color:var(--muted);font-size:19px}
+    article{padding:24px 0;border-bottom:1px solid var(--line)}
+    article h2{margin:0 0 8px;font-size:23px}
+    article p{margin:0;color:#435149}
+    .takeaway{margin:28px 0;padding:20px;border-radius:14px;background:var(--mint)}
+    .takeaway strong{display:block;margin-bottom:4px}
+    .pager{display:flex;justify-content:space-between;gap:12px;margin:24px 0 50px}
+    .pager a{padding:12px 16px;border:1px solid var(--line);border-radius:10px;background:white;text-decoration:none;font-weight:700}
+    .pager a:last-child{color:white;background:var(--green);border-color:var(--green)}
+    footer{padding:22px 5%;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+    @media(max-width:500px){.pager{flex-direction:column}.pager a{text-align:center}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../stock-starter.html">↗ Stock Starter</a>
+    <span>Lesson 3 of 4</span>
+  </header>
+  <main class="wrap">
+    <a class="back" href="../stock-starter.html#lessons">← All lessons</a>
+    <div class="eyebrow">🔎 Beginner lesson</div>
+    <h1>How to read a stock quote</h1>
+    <p class="intro">A stock quote is a quick summary of a stock’s trading information.</p>
+
+    <article>
+      <h2>Ticker symbol and price</h2>
+      <p>A ticker is a short symbol used to identify a company’s shares on a market. The displayed price is the latest reported trading price, and may change while the market is open.</p>
+    </article>
+    <article>
+      <h2>Daily change</h2>
+      <p>A quote may show the amount or percentage the price moved during the day. A green positive change or red negative change describes a past movement; it does not predict what happens next.</p>
+    </article>
+    <article>
+      <h2>Volume</h2>
+      <p>Volume is the number of shares traded during a chosen period. Higher volume means more shares changed hands, but it does not by itself tell you whether a stock is a good investment.</p>
+    </article>
+
+    <aside class="takeaway">
+      <strong>Remember</strong>
+      Quotes describe market activity. They are a snapshot, not a promise about future performance.
+    </aside>
+    <nav class="pager" aria-label="Lesson navigation">
+      <a href="how-trading-works.html">← Previous lesson</a>
+      <a href="risk-and-diversification.html">Risk and diversification →</a>
+    </nav>
+  </main>
+  <footer>Stock Starter · Educational information only. Not financial advice.</footer>
+</body>
+</html>

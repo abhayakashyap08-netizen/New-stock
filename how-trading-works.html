@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How stock trading works | Stock Starter</title>
+  <style>
+    :root{--ink:#17221d;--muted:#66736c;--paper:#f5f7f2;--green:#176b4b;--mint:#dff3e8;--line:#e2e9e3}
+    *{box-sizing:border-box}
+    body{margin:0;color:var(--ink);background:var(--paper);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+    a{color:inherit}
+    .topbar{display:flex;justify-content:space-between;align-items:center;padding:14px max(5vw,20px);background:white;border-bottom:1px solid var(--line)}
+    .brand{font-weight:800;text-decoration:none}
+    .wrap{width:min(800px,90%);margin:auto}
+    .back{display:inline-block;margin:30px 0 14px;color:var(--green);font-weight:700;text-decoration:none}
+    .eyebrow{color:var(--green);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    h1{margin:8px 0 12px;font-size:clamp(36px,6vw,54px);line-height:1.08;letter-spacing:-.04em}
+    .intro{color:var(--muted);font-size:19px}
+    article{padding:24px 0;border-bottom:1px solid var(--line)}
+    article h2{margin:0 0 8px;font-size:23px}
+    article p{margin:0;color:#435149}
+    .takeaway{margin:28px 0;padding:20px;border-radius:14px;background:var(--mint)}
+    .takeaway strong{display:block;margin-bottom:4px}
+    .pager{display:flex;justify-content:space-between;gap:12px;margin:24px 0 50px}
+    .pager a{padding:12px 16px;border:1px solid var(--line);border-radius:10px;background:white;text-decoration:none;font-weight:700}
+    .pager a:last-child{color:white;background:var(--green);border-color:var(--green)}
+    footer{padding:22px 5%;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+    @media(max-width:500px){.pager{flex-direction:column}.pager a{text-align:center}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../stock-starter.html">↗ Stock Starter</a>
+    <span>Lesson 2 of 4</span>
+  </header>
+  <main class="wrap">
+    <a class="back" href="../stock-starter.html#lessons">← All lessons</a>
+    <div class="eyebrow">🔄 Beginner lesson</div>
+    <h1>How stock trading works</h1>
+    <p class="intro">A stock trade connects someone who wants to buy shares with someone who wants to sell them.</p>
+
+    <article>
+      <h2>The basic path</h2>
+      <p>An investor usually places an order through a broker. The broker sends the order to a market or exchange, where it can be matched with a seller. The final price depends on available buyers and sellers.</p>
+    </article>
+    <article>
+      <h2>Market orders</h2>
+      <p>A market order asks to buy or sell as soon as possible at the best available price. The exact price can change before the order is completed, especially in a fast-moving market.</p>
+    </article>
+    <article>
+      <h2>Limit orders</h2>
+      <p>A limit order sets the highest price a buyer is willing to pay, or the lowest price a seller is willing to accept. It may not complete if the market does not reach that price.</p>
+    </article>
+
+    <aside class="takeaway">
+      <strong>Remember</strong>
+      Orders are instructions. A market order prioritizes speed; a limit order sets a price boundary but may not fill.
+    </aside>
+    <nav class="pager" aria-label="Lesson navigation">
+      <a href="stock-basics.html">← Previous lesson</a>
+      <a href="read-a-stock-quote.html">Read a stock quote →</a>
+    </nav>
+  </main>
+  <footer>Stock Starter · Educational information only. Not financial advice.</footer>
+</body>
+</html>
